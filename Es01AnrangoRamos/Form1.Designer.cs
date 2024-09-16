@@ -44,59 +44,67 @@
             // lblCognome
             // 
             this.lblCognome.AutoSize = true;
-            this.lblCognome.Location = new System.Drawing.Point(13, 13);
+            this.lblCognome.Location = new System.Drawing.Point(17, 16);
+            this.lblCognome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCognome.Name = "lblCognome";
-            this.lblCognome.Size = new System.Drawing.Size(52, 13);
+            this.lblCognome.Size = new System.Drawing.Size(66, 16);
             this.lblCognome.TabIndex = 0;
             this.lblCognome.Text = "Cognome";
             // 
             // txtCognome
             // 
-            this.txtCognome.Location = new System.Drawing.Point(71, 13);
+            this.txtCognome.Location = new System.Drawing.Point(95, 16);
+            this.txtCognome.Margin = new System.Windows.Forms.Padding(4);
             this.txtCognome.Name = "txtCognome";
-            this.txtCognome.Size = new System.Drawing.Size(188, 20);
+            this.txtCognome.Size = new System.Drawing.Size(249, 22);
             this.txtCognome.TabIndex = 1;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(71, 45);
+            this.txtNome.Location = new System.Drawing.Point(95, 55);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(188, 20);
+            this.txtNome.Size = new System.Drawing.Size(249, 22);
             this.txtNome.TabIndex = 3;
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(13, 45);
+            this.lblNome.Location = new System.Drawing.Point(17, 55);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.Size = new System.Drawing.Size(44, 16);
             this.lblNome.TabIndex = 2;
             this.lblNome.Text = "Nome";
             // 
             // lblDataNascita
             // 
             this.lblDataNascita.AutoSize = true;
-            this.lblDataNascita.Location = new System.Drawing.Point(13, 78);
+            this.lblDataNascita.Location = new System.Drawing.Point(17, 96);
+            this.lblDataNascita.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataNascita.Name = "lblDataNascita";
-            this.lblDataNascita.Size = new System.Drawing.Size(37, 13);
+            this.lblDataNascita.Size = new System.Drawing.Size(45, 16);
             this.lblDataNascita.TabIndex = 4;
             this.lblDataNascita.Text = "Nato il";
             // 
             // txtData
             // 
-            this.txtData.Location = new System.Drawing.Point(71, 78);
+            this.txtData.Location = new System.Drawing.Point(95, 96);
+            this.txtData.Margin = new System.Windows.Forms.Padding(4);
             this.txtData.Name = "txtData";
-            this.txtData.Size = new System.Drawing.Size(188, 20);
+            this.txtData.Size = new System.Drawing.Size(249, 22);
             this.txtData.TabIndex = 6;
             // 
             // btnInserire
             // 
-            this.btnInserire.Location = new System.Drawing.Point(184, 115);
+            this.btnInserire.Location = new System.Drawing.Point(245, 142);
+            this.btnInserire.Margin = new System.Windows.Forms.Padding(4);
             this.btnInserire.Name = "btnInserire";
-            this.btnInserire.Size = new System.Drawing.Size(75, 23);
+            this.btnInserire.Size = new System.Drawing.Size(100, 28);
             this.btnInserire.TabIndex = 7;
             this.btnInserire.Text = "INSERIRE";
             this.btnInserire.UseVisualStyleBackColor = true;
+            this.btnInserire.Click += new System.EventHandler(this.btnInserire_Click);
             // 
             // dgv
             // 
@@ -107,35 +115,39 @@
             this.dgv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(276, 12);
+            this.dgv.Location = new System.Drawing.Point(368, 15);
+            this.dgv.Margin = new System.Windows.Forms.Padding(4);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersVisible = false;
-            this.dgv.Size = new System.Drawing.Size(512, 263);
+            this.dgv.RowHeadersWidth = 51;
+            this.dgv.Size = new System.Drawing.Size(683, 324);
             this.dgv.TabIndex = 8;
             // 
             // btnRicercaXanno
             // 
-            this.btnRicercaXanno.Location = new System.Drawing.Point(123, 144);
+            this.btnRicercaXanno.Location = new System.Drawing.Point(164, 177);
+            this.btnRicercaXanno.Margin = new System.Windows.Forms.Padding(4);
             this.btnRicercaXanno.Name = "btnRicercaXanno";
-            this.btnRicercaXanno.Size = new System.Drawing.Size(136, 23);
+            this.btnRicercaXanno.Size = new System.Drawing.Size(181, 28);
             this.btnRicercaXanno.TabIndex = 9;
             this.btnRicercaXanno.Text = "RICERCA PER ANNO";
             this.btnRicercaXanno.UseVisualStyleBackColor = true;
             // 
             // btnRicercaXcognome
             // 
-            this.btnRicercaXcognome.Location = new System.Drawing.Point(98, 173);
+            this.btnRicercaXcognome.Location = new System.Drawing.Point(131, 213);
+            this.btnRicercaXcognome.Margin = new System.Windows.Forms.Padding(4);
             this.btnRicercaXcognome.Name = "btnRicercaXcognome";
-            this.btnRicercaXcognome.Size = new System.Drawing.Size(161, 23);
+            this.btnRicercaXcognome.Size = new System.Drawing.Size(215, 28);
             this.btnRicercaXcognome.TabIndex = 10;
             this.btnRicercaXcognome.Text = "RICERCA PER COGNOME";
             this.btnRicercaXcognome.UseVisualStyleBackColor = true;
             // 
             // frmIscrizione
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnRicercaXcognome);
             this.Controls.Add(this.btnRicercaXanno);
             this.Controls.Add(this.dgv);
@@ -146,8 +158,10 @@
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.txtCognome);
             this.Controls.Add(this.lblCognome);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmIscrizione";
             this.Text = "Gestione Iscrizioni al Torneo";
+            this.Load += new System.EventHandler(this.frmIscrizione_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

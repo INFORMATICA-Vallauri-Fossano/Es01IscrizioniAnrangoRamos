@@ -1,0 +1,10 @@
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\bin\Debug\Es01AnrangoRamos.exe.config
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\bin\Debug\Es01AnrangoRamos.exe
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\bin\Debug\Es01AnrangoRamos.pdb
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.csproj.AssemblyReference.cache
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.frmIscrizione.resources
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.Properties.Resources.resources
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.csproj.GenerateResource.cache
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.csproj.CoreCompileInputs.cache
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.exe
+C:\Users\achar\Desktop\Es01AnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.pdb

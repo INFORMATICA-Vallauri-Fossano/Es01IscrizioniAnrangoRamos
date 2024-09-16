@@ -50,7 +50,7 @@ namespace Es01AnrangoRamos
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception("Data di nascita non valida"+ex.Message);
+                    throw new Exception("Data di nascita non valida, "+ex.Message);
                 }
             }
         }
@@ -80,10 +80,9 @@ namespace Es01AnrangoRamos
             //compito: controllare che s contenga almeno due caratteri, solo lettere dell'alfabeto, spazio,'
             if (s.Length >= 2)
             {
-                for (int i = 0; i < s.Length; i++)
-                {
-
-                }
+                int i = 0;
+                while (((s[i] <= 'Z' && s[i] >= 'A') || (s[i] <= 'z' && s[i] >= 'a') || s[i] == ' ' || s[i] == '\'') && i < s.Length - 1) i++;
+                if (!((s[i] <= 'Z' && s[i] >= 'A') || (s[i] <= 'z' && s[i] >= 'a') || s[i] == ' ' || s[i] == '\'')) esito = false;
             }
             else esito = false;
 
