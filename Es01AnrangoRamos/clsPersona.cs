@@ -8,6 +8,16 @@ namespace Es01AnrangoRamos
 {
     public class clsPersona
     {
+        /***
+         * Una classse rappresemta un tipo di dati associati ad un gruppo 
+         * di oggetti che hannno:
+         * stesse caratteristiche e stesso funzionamento ma
+         * stato differente
+         * definendo una classe si definisce un 
+         * 
+         * 
+         */
+
         //dichiarazione delle caratteristiche   /attributi  /campi della classe
         //li dichiareremo tutti privati --> data hiding, incapsulamento
 
@@ -29,8 +39,8 @@ namespace Es01AnrangoRamos
         }
         public string Nome
         {
-            get { return nome; }     //per accesso in lettura
-            set
+            get { return nome; }
+            set                         //per accesso in scrittura
             {
                 if (controllaNominativo(value))
                     nome = value;
@@ -47,6 +57,7 @@ namespace Es01AnrangoRamos
                 try
                 {
                     dataNascita = Convert.ToDateTime(value);
+                    //almeno 10 annni compiuti
                 }
                 catch (Exception ex)
                 {
@@ -54,29 +65,41 @@ namespace Es01AnrangoRamos
                 }
             }
         }
+        //costruttori
+        //ha stesso nome della classe
+        public clsPersona() { }
+        public clsPersona(string _cognome,string _nome, string _datanascita) {
+            Cognome=_cognome;
+            Nome=_nome;
+            DataNascita = _datanascita;
+            
+        }
+
 
         //metodi pubblici   ==> richiamabili e visibili anche dall'esterno della classe
         public int VisEta()
         {
             //il metodo non ha parametri perchè usa il campo della classe
-            int anni = 0;
+            int anni;
             //compito:calcolare l'età della persona
-            try
-            {
+            
             anni = DateTime.Now.Year - dataNascita.Year;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("errore:"+ex.Message);
-            }
+            if (DateTime.Now.DayOfYear < dataNascita.DayOfYear) anni--;
 
             return anni;
         }
 
+        public string visDati()
+        {
+
+            string s=cognome+" "+nome+" data nascita: "+dataNascita.ToString();
+            return s;
+        }
         //metodi privati ==> richiamabili e visibili solo all'interno della classe
         private bool controllaNominativo(string s)
         {
             bool esito = true;
+            s = s.Trim();
             //compito: controllare che s contenga almeno due caratteri, solo lettere dell'alfabeto, spazio,'
             if (s.Length >= 2)
             {

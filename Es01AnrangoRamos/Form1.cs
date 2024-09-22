@@ -13,9 +13,9 @@ namespace Es01AnrangoRamos
 {
     public partial class frmIscrizione : Form
     {
-        clsPersona persona=new clsPersona();
-        List<clsPersona> iscritti=new List<clsPersona>();
-        clsFile fileController = new clsFile(".\\Iscrizioni.txt");
+        public clsPersona persona=new clsPersona();
+        public clsElenco elenco;
+        public clsFile fileController = new clsFile(".\\Iscrizioni.txt");
         public frmIscrizione()
         {
             InitializeComponent();
@@ -41,8 +41,9 @@ namespace Es01AnrangoRamos
                 iscritto.Nome = persona.Nome;
                 iscritto.Cognome= persona.Cognome;
                 iscritto.DataNascita= persona.DataNascita;
-                
-                iscritti.Add(iscritto);
+                MessageBox.Show("Inserito il nuovo iscritto: " + iscritto.visDati());
+
+                elenco.aggiungi(iscritto);
                 salvasufile();
                 aggiornadgv();
             }
@@ -54,16 +55,16 @@ namespace Es01AnrangoRamos
             dgv.Rows.Clear();
 
             dgv.ColumnCount = 3;
-            dgv.RowCount= iscritti.Count;
+            dgv.RowCount= elenco.Count;
             dgv.Columns[0].HeaderCell.Value = "Cognome";
             dgv.Columns[1].HeaderCell.Value = "Nome";
             dgv.Columns[2].HeaderCell.Value = "Data di Nascita";
 
-            for (int i = 0; i < iscritti.Count; i++)
+            for (int i = 0; i < elenco.Count; i++)
             {
-                dgv.Rows[i].Cells[0].Value=iscritti[i].Cognome;
-                dgv.Rows[i].Cells[1].Value=iscritti[i].Nome;
-                dgv.Rows[i].Cells[2].Value=iscritti[i].DataNascita;
+                dgv.Rows[i].Cells[0].Value=elenco[i].Cognome;
+                dgv.Rows[i].Cells[1].Value=elenco[i].Nome;
+                dgv.Rows[i].Cells[2].Value=elenco[i].DataNascita;
             }
 
             dgv.AutoResizeColumns();
@@ -79,6 +80,7 @@ namespace Es01AnrangoRamos
 
         private void frmIscrizione_Load(object sender, EventArgs e)
         {
+            elenco=new clsElenco();
             caricaIscrittiFile();
             aggiornadgv();
         }
@@ -95,7 +97,35 @@ namespace Es01AnrangoRamos
                 iscritto.Nome = record[1];
                 iscritto.DataNascita = record[2];
 
-                iscritti.Add(iscritto);
+                elenco.aggiungi(iscritto);
+            }
+        }
+
+        private void btnInserire2_Click(object sender, EventArgs e)
+        {
+            bool esito = true;
+            try
+            {
+               persona=new clsPersona( txtCognome.Text,
+                txtNome.Text,
+                txtData.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Reinserire i dati. " + ex.Message);
+                esito = false;
+            }
+            if (esito)
+            {
+                clsPersona iscritto = new clsPersona(
+                persona.Nome,
+                persona.Cognome,
+                persona.DataNascita);
+                MessageBox.Show("Inserito il nuovo iscritto: " + iscritto.visDati());
+
+                elenco.aggiungi(iscritto);
+                salvasufile();
+                aggiornadgv();
             }
         }
     }

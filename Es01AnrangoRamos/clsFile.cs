@@ -60,7 +60,6 @@ namespace Es01AnrangoRamos
         }
         public void CreateLinesFile(string newFileData)
         {
-            MessageBox.Show(path);
             File.AppendAllText(path, newFileData+"\n");
         }
     }
