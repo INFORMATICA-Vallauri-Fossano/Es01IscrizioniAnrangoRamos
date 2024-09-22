@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\",
+  "WorkspaceRootPath": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|c:\\users\\achar\\desktop\\es01iscrizionianrangoramos-main\\es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\es01anrangoramos\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\es01anrangoramos\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\clspersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\es01anrangoramos\\clsfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|c:\\users\\achar\\desktop\\es01iscrizionianrangoramos\\es01anrangoramos\\clselenco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\clselenco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\es01anrangoramos\\clsfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\clsfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|c:\\users\\achar\\desktop\\es01iscrizionianrangoramos\\es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED557A26-178E-4072-ABD3-572918A0C043}|Es01AnrangoRamos\\Es01AnrangoRamos.csproj|solutionrelative:es01anrangoramos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,51 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsFile.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\clsFile.cs",
-              "RelativeDocumentMoniker": "Es01AnrangoRamos\\clsFile.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\clsFile.cs",
-              "RelativeToolTip": "Es01AnrangoRamos\\clsFile.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "clsElenco.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsElenco.cs",
+              "RelativeDocumentMoniker": "Es01AnrangoRamos\\clsElenco.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsElenco.cs",
+              "RelativeToolTip": "Es01AnrangoRamos\\clsElenco.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:38:09.756Z"
+              "WhenOpened": "2024-09-22T22:32:35.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "clsFile.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsFile.cs",
+              "RelativeDocumentMoniker": "Es01AnrangoRamos\\clsFile.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsFile.cs",
+              "RelativeToolTip": "Es01AnrangoRamos\\clsFile.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:38:09.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\Form1.cs",
               "RelativeDocumentMoniker": "Es01AnrangoRamos\\Form1.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\Form1.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\Form1.cs",
               "RelativeToolTip": "Es01AnrangoRamos\\Form1.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAvwGEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T18:30:54.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "clsPersona.cs",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\clsPersona.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsPersona.cs",
               "RelativeDocumentMoniker": "Es01AnrangoRamos\\clsPersona.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\clsPersona.cs",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\clsPersona.cs",
               "RelativeToolTip": "Es01AnrangoRamos\\clsPersona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:23:08.871Z"
+              "WhenOpened": "2024-09-16T18:23:08.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos-main\\Es01AnrangoRamos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\Form1.cs",
               "RelativeDocumentMoniker": "Es01AnrangoRamos\\Form1.cs",
-              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01AnrangoRamos\\Es01AnrangoRamos\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\Es01AnrangoRamos\\Es01AnrangoRamos\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\achar\\Desktop\\Es01IscrizioniAnrangoRamos\\Es01AnrangoRamos\\Form1.cs [Design]",
+              "RelativeToolTip": "Es01AnrangoRamos\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:23:09.221Z"
+              "WhenOpened": "2024-09-16T18:23:09.221Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

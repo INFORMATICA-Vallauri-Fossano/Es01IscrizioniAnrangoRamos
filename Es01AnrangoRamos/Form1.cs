@@ -45,31 +45,11 @@ namespace Es01AnrangoRamos
 
                 elenco.aggiungi(iscritto);
                 salvasufile();
-                aggiornadgv();
+                elenco.visualizza(dgv);
             }
             
         }
 
-        private void aggiornadgv()
-        {
-            dgv.Rows.Clear();
-
-            dgv.ColumnCount = 3;
-            dgv.RowCount= elenco.Count;
-            dgv.Columns[0].HeaderCell.Value = "Cognome";
-            dgv.Columns[1].HeaderCell.Value = "Nome";
-            dgv.Columns[2].HeaderCell.Value = "Data di Nascita";
-
-            for (int i = 0; i < elenco.Count; i++)
-            {
-                dgv.Rows[i].Cells[0].Value=elenco[i].Cognome;
-                dgv.Rows[i].Cells[1].Value=elenco[i].Nome;
-                dgv.Rows[i].Cells[2].Value=elenco[i].DataNascita;
-            }
-
-            dgv.AutoResizeColumns();
-            dgv.AutoResizeRows();
-        }
 
         //aggiunge un nuovo iscritto al file
         private void salvasufile()
@@ -82,7 +62,7 @@ namespace Es01AnrangoRamos
         {
             elenco=new clsElenco();
             caricaIscrittiFile();
-            aggiornadgv();
+            elenco.visualizza(dgv);
         }
 
         private void caricaIscrittiFile()
@@ -118,15 +98,26 @@ namespace Es01AnrangoRamos
             if (esito)
             {
                 clsPersona iscritto = new clsPersona(
-                persona.Nome,
                 persona.Cognome,
+                persona.Nome,
                 persona.DataNascita);
                 MessageBox.Show("Inserito il nuovo iscritto: " + iscritto.visDati());
 
                 elenco.aggiungi(iscritto);
                 salvasufile();
-                aggiornadgv();
+                elenco.visualizza(dgv);
+                
             }
+        }
+
+        private void btnRicercaXanno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRicercaXcognome_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

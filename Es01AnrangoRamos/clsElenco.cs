@@ -26,6 +26,8 @@ namespace Es01AnrangoRamos
         {
             dgv.DataSource = null;
             dgv.DataSource = listaPersona;
+            dgv.AutoResizeRows();
+            dgv.AutoResizeColumns();
         }
     }
 }

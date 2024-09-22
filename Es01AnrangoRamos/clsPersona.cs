@@ -9,7 +9,7 @@ namespace Es01AnrangoRamos
     public class clsPersona
     {
         /***
-         * Una classse rappresemta un tipo di dati associati ad un gruppo 
+         * Una classe rappresenta un tipo di dati associati ad un gruppo 
          * di oggetti che hannno:
          * stesse caratteristiche e stesso funzionamento ma
          * stato differente
@@ -51,7 +51,7 @@ namespace Es01AnrangoRamos
 
         public string DataNascita
         {
-            get { return dataNascita.ToString(); }
+            get { return dataNascita.ToString("d"); }
             set
             {
                 try
@@ -92,7 +92,7 @@ namespace Es01AnrangoRamos
         public string visDati()
         {
 
-            string s=cognome+" "+nome+" data nascita: "+dataNascita.ToString();
+            string s=cognome+" "+nome+" data nascita: "+dataNascita.ToString("d");
             return s;
         }
         //metodi privati ==> richiamabili e visibili solo all'interno della classe
