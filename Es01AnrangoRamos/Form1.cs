@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Schema;
 
+//
+using Microsoft.VisualBasic;
+
 namespace Es01AnrangoRamos
 {
     public partial class frmIscrizione : Form
@@ -46,8 +49,10 @@ namespace Es01AnrangoRamos
                 elenco.aggiungi(iscritto);
                 salvasufile();
                 elenco.visualizza(dgv);
+                pulisciForm();
+
             }
-            
+
         }
 
 
@@ -106,18 +111,44 @@ namespace Es01AnrangoRamos
                 elenco.aggiungi(iscritto);
                 salvasufile();
                 elenco.visualizza(dgv);
+                pulisciForm();
                 
             }
         }
 
+        private void pulisciForm()
+        {
+            txtCognome.Text = "";
+            txtNome.Text = "";
+            txtData.Text = "";
+        }
+
         private void btnRicercaXanno_Click(object sender, EventArgs e)
         {
+            int anno;
+            try
+            {
+                anno = Convert.ToInt32(Interaction.InputBox("Inserire anno richiesto","ricerca per anno","2000"));
+                MessageBox.Show(elenco.ricerca(anno));
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Scrivere un anno valido");
+            }
 
         }
 
         private void btnRicercaXcognome_Click(object sender, EventArgs e)
         {
+            if (txtCognome.Text.Trim() == "")
+            {
+                txtCognome.Focus();
+                MessageBox.Show("Inserire un cognome");
+            }
+            else
+            MessageBox.Show(elenco.ricerca(txtCognome.Text.Trim()));
 
+            pulisciForm();
         }
     }
 }

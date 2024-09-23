@@ -28,3 +28,4 @@ C:\Users\achar\Desktop\Es01IscrizioniAnrangoRamos\Es01AnrangoRamos\obj\Debug\Es0
 C:\Users\achar\Desktop\Es01IscrizioniAnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.csproj.CoreCompileInputs.cache
 C:\Users\achar\Desktop\Es01IscrizioniAnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.exe
 C:\Users\achar\Desktop\Es01IscrizioniAnrangoRamos\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.pdb
+C:\Users\g.anrangoramos.2951\Desktop\Es01IscrizioniAnrangoRamos-main\Es01AnrangoRamos\obj\Debug\Es01AnrangoRamos.csproj.SuggestedBindingRedirects.cache
